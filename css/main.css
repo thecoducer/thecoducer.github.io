@@ -257,11 +257,16 @@ hr {
 p.linespacing{
 	line-height: 50%;
 }
-p.blogsfont{
+/*p.blogsfont{
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
-	
 }
+a.blogsfont{
+	color: white;
+}
+a:hover{
+	color: #FF0077
+}*/
 
 /**
  * Lists - (_document-setup.scss)  
