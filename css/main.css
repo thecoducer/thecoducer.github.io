@@ -141,7 +141,7 @@ p img {
 	margin: 0;
 }
 p.lead {
-	font-family: "lora-regular", serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 2rem;
 	line-height: 1.8;
 	color: #888888;
