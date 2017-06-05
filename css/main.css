@@ -1492,8 +1492,8 @@ header .logo a {
  */
 #about {
 	background: #FFFFFF;
-	padding-top: 12rem;
-	padding-bottom: 15rem;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
 }
 #about .section-intro {
 	margin-bottom: 3rem;
@@ -1622,8 +1622,8 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #resume {
-	padding-top: 12rem;
-	padding-bottom: 12rem;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
 }
 
 #resume .resume-header {
@@ -2252,8 +2252,8 @@ header .logo a {
  */
 #contact {
 	background: #151515;
-	padding-top: 12rem;
-	padding-bottom: 7.2rem;
+	padding-top: 10rem; /*default - 12*/
+	padding-bottom: 0.8rem;  /*default - 7.2*/
 }
 #contact .section-intro h1 {
 	color: white;
