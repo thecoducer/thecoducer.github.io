@@ -123,7 +123,6 @@
 
    </section> <!-- /intro -->
 
-
    <!-- about section
    ================================================== -->
    <section id="about"> 
@@ -174,6 +173,10 @@
    					</div>   		
    				</div>
 		 </section>
+
+		<!-- Instagram feed widget -->
+
+		<iframe id="snapwidget" src="https://snapwidget.com/embed/391901" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
 
 <!-- contact
    ================================================== -->
@@ -275,6 +278,15 @@
    <script src="js/jquery-2.1.3.min.js"></script>
    <script src="js/plugins.js"></script>
    <script src="js/main.js"></script>
+   <script src="https://snapwidget.com/js/snapwidget.js"></script> 
+   <script>
+	var iframe = document.getElementById('snapwidget');
+	var refreshInterval = 1000 * 60 * 30; // Refresh every 30 minutes
+
+	setInterval(function() {
+  	iframe.src = iframe.src;
+	}, refreshInterval); 
+	</script><!--For Instagram widget-->
 
 </body>
 </html>
