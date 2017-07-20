@@ -88,6 +88,13 @@ a:hover, a:focus, a:active {
  *
  * ------------------------------------------------------------------- 
  */
+
+h4.name{
+	color: #FF0077;
+	font-size: 30px;
+	margin-bottom: 0.2rem;
+	font-family: 'Megrim', cursive;
+}
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 	font-family: "poppins-semibold", sans-serif;
 	color: #313131;
