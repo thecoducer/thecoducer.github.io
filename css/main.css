@@ -1418,7 +1418,7 @@ header .logo a {
 }
 .intro-social li {
 	display: inline-block;
-	margin: 0 20px;
+	margin: 0 12px;  /*change to increase/decrease space b/w icons*/
 	padding: 0;
 }
 .intro-social li a, .intro-social li a:visited {
@@ -1441,7 +1441,7 @@ header .logo a {
 		font-size: 3rem;
 	}
 	.intro-social li {
-		margin: 0 15px;
+		margin: 0 12px;
 	}
 }
 @media only screen and (max-width:768px) {
