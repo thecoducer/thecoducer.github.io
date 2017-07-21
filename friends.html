@@ -8,7 +8,59 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/csshake/1.5.2/csshake.min.css">
     </head>
+
+    <style>
+        /**Glitch Text**/
+             @import "compass/css3";
+
+            body{
+            background: lightseagreen;
+            }
+            
+            @keyframes noise-anim{
+            $steps:20;
+            @for $i from 0 through $steps{
+                #{percentage($i*(1/$steps))}{
+                clip:rect(random(100)+px,9999px,random(100)+px,0);
+                }
+            }
+            }
+            .glitch:after{
+            content:attr(data-text);
+            position:absolute;
+            left:2px;
+            text-shadow:-1px 0 red;
+            top:0;
+            color:white;
+            background:black;
+            overflow:hidden;
+            clip:rect(0,900px,0,0); 
+            animation:noise-anim 2s infinite linear alternate-reverse;
+            }
+
+            @keyframes noise-anim-2{
+            $steps:20;
+            @for $i from 0 through $steps{
+                #{percentage($i*(1/$steps))}{
+                clip:rect(random(100)+px,9999px,random(100)+px,0);
+                }
+            }
+            }
+            .glitch:before{
+            content:attr(data-text);
+            position:absolute;
+            left:-2px;
+            text-shadow:1px 0 blue; 
+            top:0;
+            color:white;
+            background:black;
+            overflow:hidden;
+            clip:rect(0,900px,0,0); 
+            animation:noise-anim-2 3s infinite linear alternate-reverse;
+            }
+    </style>
     <body>
 
         <nav class="navbar navbar-inverse">
@@ -35,10 +87,10 @@
         <!--jumbotron-->
         <div class="container">
             <div class="jumbotron">
-                <h1 style="font-family: 'Lobster', cursive;">Friend's Portal</h1>
-                <h3 style="font-family: 'Pacifico', cursive;">Let's have a talk! :)</h3>
+                <div class="glitch after" data-text="GLITCH"><h1 style="font-family: 'Lobster', cursive;">Friend's Portal</h1></div>
+                <div class="shake shake-constant shake-constant--hover"><h3 style="font-family: 'Pacifico', cursive;">Let's have a talk! :)</h3></div>
             </div>
-            <img class="img-responsive" src="friendsres/friends.jpg" width="650" height="500" style="margin:0 auto;">  <!--margin in inline css is to align the image to center 
+            <!--<img class="img-responsive" src="friendsres/friends.jpg" width="650" height="500" style="margin:0 auto;">-->  <!--margin in inline css is to align the image to center 
             and made it responsive-->
         </div>
 
