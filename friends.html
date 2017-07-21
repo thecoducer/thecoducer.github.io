@@ -12,53 +12,33 @@
     </head>
 
     <style>
-        /**Glitch Text**/
-             @import "compass/css3";
-
             body{
-            background: lightseagreen;
-            }
-            
-            @keyframes noise-anim{
-            $steps:20;
-            @for $i from 0 through $steps{
-                #{percentage($i*(1/$steps))}{
-                clip:rect(random(100)+px,9999px,random(100)+px,0);
-                }
-            }
-            }
-            .glitch:after{
-            content:attr(data-text);
-            position:absolute;
-            left:2px;
-            text-shadow:-1px 0 red;
-            top:0;
-            color:white;
-            background:black;
-            overflow:hidden;
-            clip:rect(0,900px,0,0); 
-            animation:noise-anim 2s infinite linear alternate-reverse;
+            background: #9ac8fd;
             }
 
-            @keyframes noise-anim-2{
-            $steps:20;
-            @for $i from 0 through $steps{
-                #{percentage($i*(1/$steps))}{
-                clip:rect(random(100)+px,9999px,random(100)+px,0);
-                }
+            /* DEMO-SPECIFIC STYLES */
+            .typewriter h1 {
+            color: ;
+            overflow: hidden; /* Ensures the content is not revealed until the animation */
+            border-right: .15em solid orange; /* The typwriter cursor */
+            white-space: nowrap; /* Keeps the content on a single line */
+            margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+            letter-spacing: ; /* Adjust as needed */
+            animation: 
+                typing 3.5s steps(30, end),
+                blink-caret .5s step-end infinite;
             }
+
+            /* The typing effect */
+            @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
             }
-            .glitch:before{
-            content:attr(data-text);
-            position:absolute;
-            left:-2px;
-            text-shadow:1px 0 blue; 
-            top:0;
-            color:white;
-            background:black;
-            overflow:hidden;
-            clip:rect(0,900px,0,0); 
-            animation:noise-anim-2 3s infinite linear alternate-reverse;
+
+            /* The typewriter cursor effect */
+            @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: orange }
             }
     </style>
     <body>
@@ -87,7 +67,7 @@
         <!--jumbotron-->
         <div class="container">
             <div class="jumbotron">
-                <div class="glitch after" data-text="GLITCH"><h1 style="font-family: 'Lobster', cursive;">Friend's Portal</h1></div>
+                <div class="typewriter"><h1 style="font-family: 'Lobster', cursive;">Friend's Portal</h1></div>
                 <div class="shake shake-constant shake-constant--hover"><h3 style="font-family: 'Pacifico', cursive;">Let's have a talk! :)</h3></div>
             </div>
             <!--<img class="img-responsive" src="friendsres/friends.jpg" width="650" height="500" style="margin:0 auto;">-->  <!--margin in inline css is to align the image to center 
