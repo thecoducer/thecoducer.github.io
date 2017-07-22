@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Togetherness</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/csshake/1.5.2/csshake.min.css">
+    </head>
+
+    <style>
+            body{
+            background: #e7c1e6;
+            }
+
+            /* DEMO-SPECIFIC STYLES */
+            .typewriter h1 {
+            color: ;
+            overflow: hidden; /* Ensures the content is not revealed until the animation */
+            border-right: .15em solid orange; /* The typwriter cursor */
+            white-space: nowrap; /* Keeps the content on a single line */
+            margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+            letter-spacing: ; /* Adjust as needed */
+            animation: 
+                typing 3.5s steps(30, end),
+                blink-caret .5s step-end infinite;
+            }
+
+            /* The typing effect */
+            @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+            }
+
+            /* The typewriter cursor effect */
+            @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: orange }
+            }
+    </style>
+    <body>
+
+        <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+            </button>
+            <a class="navbar-brand" href="#">Togetherness</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="https://thecoducer.github.io/">Home</a></li>
+                <li><a href="https://thecoducer.github.io/#about">About Me</a></li>
+                <li><a href="https://thecoducer.github.io/#contact">Contact</a></li>
+                
+            </ul>
+            </div>
+        </div>
+        </nav>
+
+        <!--jumbotron-->
+        <div class="container">
+            <div class="jumbotron">
+                <div class="typewriter"><h1 style="font-family: 'Lobster', cursive;">Friend's Portal</h1></div>
+                <div class="shake shake-constant shake-constant--hover"><h3 style="font-family: 'Pacifico', cursive;">Let's have a talk! :)</h3></div>
+            </div>
+            <!--<img class="img-responsive" src="friendsres/friends.jpg" width="650" height="500" style="margin:0 auto;">-->  <!--margin in inline css is to align the image to center 
+            and made it responsive-->
+        </div>
+
+        <div class="container">
+            <div id="disqus_thread"></div>
+                <div id="disqus_thread"></div>
+                    <script>
+
+                    /**
+                    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                    /*
+                    var disqus_config = function () {
+                    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    };
+                    */
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://thecoducer.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+        </div>
+    
+    </body>
+</html>
