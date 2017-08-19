@@ -286,8 +286,8 @@
 
 			   
 			   <a href="https://twitter.com/thecoducer" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false">Follow @thecoducer</a>
-			   <!--facebook widget JS code-->
-			<iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fthecoducer&width=63&height=65&layout=button&size=small&show_faces=true&appId" width="63" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+			   <div class="fb-follow" data-href="https://www.facebook.com/thecoducer" data-layout="button" data-size="small" data-show-faces="true"></div>
+			   
 	      	</div>
 			  
 
@@ -320,6 +320,14 @@
   	iframe.src = iframe.src;
 	}, refreshInterval); 
 	</script><!--For Instagram widget-->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10";
+	fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><!--twitter widget code-->
 	<!--block adblock code-->
 	<script type="text/javascript"  charset="utf-8">
