@@ -1524,7 +1524,6 @@ header .logo a {
  */
  #tweet{
 	padding-top: 9rem;
-	padding-bottom: 5rem;
  }
 
 /** 
@@ -1534,7 +1533,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
  #thecoducer-rss{
-	padding-top: 0rem;
+	padding-top: 9rem;
  }
 
  /** 
