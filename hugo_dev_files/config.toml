@@ -20,7 +20,7 @@ blog  = "blog/:slug/"
 name                   = "Blog"
 weight                 = -130
 identifier             = "blog"
-url                    = "http://www.thecoducer.com"
+url                    = "http://www.thecoducer.com/p/archive.html"
 
 [[menu.main]]
 name                   = "Photo+Blog"
