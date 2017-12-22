@@ -29,16 +29,16 @@ identifier             = "photoblog"
 url                    = "https://www.flickr.com/photos/mayukhdatta/"
 
 [[menu.main]]
-name                   = "About"
-weight                 = -110
-identifier             = "about"
-url                    = "http://www.thecoducer.com/p/about-mayukhdatta.html"
-
-[[menu.main]]
 name                   = "Quora"
-weight                 = -100
+weight                 = -110
 identifier             = "quora"
 url                    = "https://mayukhdatta.quora.com/"
+
+[[menu.main]]
+name                   = "About"
+weight                 = -100
+identifier             = "about"
+url                    = "http://www.thecoducer.com/p/about-mayukhdatta.html"
 
 [params]
 latestpostscount       = 5                            # how many posts to display on the home page
