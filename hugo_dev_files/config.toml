@@ -26,13 +26,19 @@ url                    = "http://www.thecoducer.com/p/archive.html"
 name                   = "Photo+Blog"
 weight                 = -120
 identifier             = "photoblog"
-url                    = "https://somethingsomewhere9.wordpress.com/"
+url                    = "https://www.flickr.com/photos/mayukhdatta/"
 
 [[menu.main]]
 name                   = "About"
 weight                 = -110
 identifier             = "about"
 url                    = "http://www.thecoducer.com/p/about-mayukhdatta.html"
+
+[[menu.main]]
+name                   = "Quora"
+weight                 = -100
+identifier             = "quora"
+url                    = "https://mayukhdatta.quora.com/"
 
 [params]
 latestpostscount       = 5                            # how many posts to display on the home page
@@ -49,11 +55,11 @@ github                 = "//github.com/thecoducer"
 highlightjs            = true
 instagram              = "//instagram.com/thecoducer"
 lang                   = "en"
-linkedin               = "//linkedin.com/in/mayukhdatta5741"
+linkedin               = "//linkedin.com/in/thecoducer"
 noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
-selfintro              = "I write codes. Wander & take photos. Love to pursue art. Enthusiastic about AI and cyber security."                            # appears in the site header when set to a non-empty string
+selfintro              = "I write programs, wander & take photos, love to pursue art and am enthusiastic about AI & cyber security."                            # appears in the site header when set to a non-empty string
 twitter                = "//twitter.com/thecoducer"
-facebook               = "//facebook.com/thecoducer"
+#facebook               = "//facebook.com/thecoducer"
 # highlightjslanguages = ["go"]                        # additional languages not included in the "common" set
 # highlightjsStyle     = "darcula"
 
