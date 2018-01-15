@@ -16,11 +16,11 @@ googleAnalytics     = "UA-103801408-1"
 [permalinks]
 blog  = "blog/:slug/"
 
-[[menu.main]]
-name                   = "Resume"
-weight                 = -130
-identifier             = "resume"
-url                    = "https://thecoducer.github.io/cv"
+#[[menu.main]]
+#name                   = "Resume"
+#weight                 = -130
+#identifier             = "resume"
+#url                    = "https://thecoducer.github.io/cv"
 
 
 [[menu.main]]

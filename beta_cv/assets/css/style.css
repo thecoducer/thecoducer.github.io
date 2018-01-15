@@ -28,12 +28,12 @@ Primary use:	CV/Resume, Portfolio, Perosnal Website
 ------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [ Color codes ]
-    main-color:         #5da4d9;
+    main-color:         #1abc9c;
     Blue:               #71DD75 (Blue)    [ This is the main color in Template ]
     white:              #FFFFFF (White)     [  ]
     body-bg-color:      #eae8e7            [ body bg color ]
     font-color:         #767270             [ font color  ]
-    border-color:       #4783c2;
+    border-color:       #248673;
 
 ------------------------------------------------------------------ */
 * {
@@ -136,7 +136,7 @@ Primary use:	CV/Resume, Portfolio, Perosnal Website
   .sidebar {
     text-align: left;
     color: #ffffff;
-    background-color: #5da4d9;
+    background-color: #1abc9c;
     overflow: hidden;
     display: block;
   }
@@ -165,16 +165,16 @@ Primary use:	CV/Resume, Portfolio, Perosnal Website
     height: 30px;
     font-size: 18pt;
     line-height: 24pt;
-    background-color: #5da4d9;
+    background-color: #1abc9c;
     margin-top: 20px;
     padding: 0px 6px;
   }
   .sidebar .heading nav .side-nav h3 {
-    color: #5da4d9;
+    color: #1abc9c;
     padding: 0 15px;
   }
   .sidebar .heading nav .side-nav li a:hover {
-    color: #5da4d9;
+    color: #1abc9c;
   }
   .sidebar .heading nav .side-nav li:hover {
     background-color: transparent !important;
@@ -213,7 +213,7 @@ Primary use:	CV/Resume, Portfolio, Perosnal Website
     margin: 0px;
   }
   .sidebar .info {
-    border-bottom: 1px solid #4783c2;
+    border-bottom: 1px solid #248673;
     padding-left: 0px;
   }
   .sidebar .info span {
@@ -240,7 +240,7 @@ Primary use:	CV/Resume, Portfolio, Perosnal Website
     padding-left: 0px;
   }
   .sidebar .skill-line .progress {
-    background-color: #4783c2;
+    background-color: #248673;
     height: 2px;
     overflow: visible;
   }
@@ -316,7 +316,7 @@ Primary use:	CV/Resume, Portfolio, Perosnal Website
     color: #767270;
   }
   .custom-content-wrapper span {
-    color: #5da4d9;
+    color: #1abc9c;
     margin-top: 0px;
     font-size: 10pt;
     line-height: 15pt;
@@ -339,7 +339,7 @@ Primary use:	CV/Resume, Portfolio, Perosnal Website
     width: 19%;
   }
   .interests ul li .fa {
-    color: #5da4d9;
+    color: #1abc9c;
     text-align: left;
   }
   /* style for
@@ -356,7 +356,7 @@ Primary use:	CV/Resume, Portfolio, Perosnal Website
     line-height: 18pt;
   }
   .website span a {
-    color: #5da4d9;
+    color: #1abc9c;
     word-wrap: break-word;
   }
   /* style for
@@ -503,7 +503,7 @@ Primary use:	CV/Resume, Portfolio, Perosnal Website
   input[type=number]:focus:not([readonly]),
   input[type=search]:focus:not([readonly]),
   textarea.materialize-textarea:focus:not([readonly]) {
-    border-bottom: 1px solid #5da4d9;
+    border-bottom: 1px solid #1abc9c;
   }
   input[type=text]:focus:not([readonly]) + label,
   input[type=password]:focus:not([readonly]) + label,
@@ -516,19 +516,19 @@ Primary use:	CV/Resume, Portfolio, Perosnal Website
   input[type=number]:focus:not([readonly]) + label,
   input[type=search]:focus:not([readonly]) + label,
   textarea.materialize-textarea:focus:not([readonly]) + label {
-    color: #5da4d9;
+    color: #1abc9c;
   }
   .waves-me:focus {
-    background-color: #5da4d9;
+    background-color: #1abc9c;
     color: #fff;
   }
   .btn {
     margin-left: 10px;
-    background-color: #5da4d9;
+    background-color: #1abc9c;
   }
   .btn:hover,
   .btn:focus {
-    background-color: #5da4d9;
+    background-color: #1abc9c;
   }
   .email-success,
   .email-failed {
@@ -537,17 +537,17 @@ Primary use:	CV/Resume, Portfolio, Perosnal Website
     margin: 0 0 0 0 !important;
   }
   .btn.disabled {
-    background-color: #5da4d9;
+    background-color: #1abc9c;
     color: #fff;
     cursor: default;
   }
   .btn.disabled:focus {
-    background-color: #5da4d9;
+    background-color: #1abc9c;
     color: #fff;
     cursor: default;
   }
   .btn.disabled:hover {
-    background-color: #5da4d9;
+    background-color: #1abc9c;
     color: #fff;
     cursor: default;
   }
@@ -560,7 +560,7 @@ Primary use:	CV/Resume, Portfolio, Perosnal Website
     color: red;
   }
   .text-success {
-    color: #5da4d9 ;
+    color: #1abc9c ;
   }
   /*
   |----------------------------------------------------------------------------
@@ -671,5 +671,5 @@ Primary use:	CV/Resume, Portfolio, Perosnal Website
     padding: 30px;
   }
   .project-information li a {
-    color: #5da4d9;
+    color: #1abc9c;
   }
