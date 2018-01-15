@@ -17,26 +17,33 @@ googleAnalytics     = "UA-103801408-1"
 blog  = "blog/:slug/"
 
 [[menu.main]]
-name                   = "Blog"
+name                   = "Resume"
 weight                 = -130
+identifier             = "resume"
+url                    = "https://thecoducer.github.io/cv"
+
+
+[[menu.main]]
+name                   = "Blog"
+weight                 = -120
 identifier             = "blog"
 url                    = "http://www.thecoducer.com/p/archive.html"
 
 [[menu.main]]
 name                   = "Photo+Blog"
-weight                 = -120
+weight                 = -110
 identifier             = "photoblog"
 url                    = "https://www.flickr.com/photos/mayukhdatta/"
 
 [[menu.main]]
 name                   = "Quora"
-weight                 = -110
+weight                 = -100
 identifier             = "quora"
 url                    = "https://mayukhdatta.quora.com/"
 
 [[menu.main]]
 name                   = "About"
-weight                 = -100
+weight                 = -90
 identifier             = "about"
 url                    = "http://www.thecoducer.com/p/about-mayukhdatta.html"
 
@@ -47,7 +54,7 @@ author                 = "Mayukh Datta"
 cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
 dateform               = "Jan 2, 2006"
 dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
-description            = "Personal Website of Mayukh Datta."
+description            = "Mayukh Datta's personal website."
 email                  = "mayukh5741@gmail.com"
 extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
 faviconfile            = "img/thecoducer.ico"
