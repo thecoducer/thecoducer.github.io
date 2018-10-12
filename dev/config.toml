@@ -37,7 +37,7 @@ googleAnalytics     = "UA-103801408-1"             # Tracking code, eg. "UA-1111
     text = "i take photos."
 
 [[params.mainMenu]]
-    link = "http://www.thecoducer.com/"
+    link = "http://www.thecoducer.com/p/archives.html"
     text = "i write blogs."
 
 [[params.mainMenu]]
