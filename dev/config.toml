@@ -46,11 +46,11 @@ googleAnalytics     = "UA-103801408-1"             # Tracking code, eg. "UA-1111
 
 [[params.mainMenu]]
     link = "http://www.thecoducer.com/p/about-mayukhdatta.html"
-    text = "about me"
+    text = "about me."
 
 [[params.mainMenu]]
     link = "http://www.thecoducer.com/p/contact-mayukh-datta.html"
-    text = "contact me"
+    text = "contact me."
 
 
 
