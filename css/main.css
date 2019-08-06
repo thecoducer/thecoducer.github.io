@@ -1,6 +1,3 @@
-/* Ubuntu, Ubuntu */
-@import url(https://fonts.googleapis.com/css?family=Ubuntu);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
 @import url('https://fonts.googleapis.com/css?family=Assistant|Fira+Sans+Condensed|Oxygen|Playfair+Display|Red+Hat+Text');
 
 body {
@@ -308,13 +305,13 @@ ul {
 }
 
 .code_blog {
-    font-family: "Ubuntu Mono";
+  font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 14px;
     margin: 0em .9em 0em;
 }
 
 .blog_cv {
-    font-family: "Ubuntu Mono";
+  font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 17px;
     /* margin: 0em .9em 0em; */
 }
