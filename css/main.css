@@ -1,7 +1,7 @@
 /* Ubuntu, Ubuntu */
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
-@import url('https://fonts.googleapis.com/css?family=Assistant|Fira+Sans+Condensed|Oxygen|Playfair+Display|Red+Hat+Text&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Assistant|Fira+Sans+Condensed|Oxygen|Playfair+Display|Red+Hat+Text');
 
 body {
   font-family: 'Red Hat Text', sans-serif;
@@ -136,15 +136,18 @@ h6 {
 }
 
 ul {
+  font-family: 'Fira Sans Condensed', sans-serif;
   padding-left: 15px;
 }
 
 ul.flat {
+  font-family: 'Fira Sans Condensed', sans-serif;
   margin: 0;
   padding: 0;
 }
 
 ul.flat li {
+  font-family: 'Fira Sans Condensed', sans-serif;
   display: inline-block;
   list-style: none;
   margin-left: 0;
@@ -167,10 +170,12 @@ ul {
 }
 
 .introduction ul li {
+  font-family: 'Fira Sans Condensed', sans-serif;
   margin-bottom: 10px;
 }
 
 .introduction ul li p {
+  font-family: 'Fira Sans Condensed', sans-serif;
   display: inline;
 }
 
@@ -236,6 +241,7 @@ ul {
 }
 
 .header nav ul.flat li {
+  font-family: 'Fira Sans Condensed', sans-serif;
   display: inline-block;
   list-style: none;
   margin-left: 0;
