@@ -96,6 +96,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: 'Assistant', sans-serif;
   line-height: 1.2;
   color: #330;
   font-weight: 100;
@@ -252,7 +253,7 @@ ul {
   /* color: #0c3ea0; */
   font-size: 14px;
   display: block;
-  font-family: "Ubuntu Mono";
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: bolder;
 }
 
@@ -277,7 +278,7 @@ ul {
 .email {
   /* color: #0c3ea0; */
   font-size: 16px;
-  font-family: "Ubuntu Mono";
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: bolder;
 }
 
