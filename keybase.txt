@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/thecoducer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://thecoducer.github.io
+  * I am thecoducer (https://keybase.io/thecoducer) on keybase.
+  * I have a public key with fingerprint C0C9 DEAD F83B 6D42 D60E  10FC 0C86 3D0F 346B 9AB9
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01018a070f682a248095dc9414ccd041f6de1b2c9baf4b3be664c1c3f9c1ecd75ad60a",
+      "fingerprint": "c0c9deadf83b6d42d60e10fc0c863d0f346b9ab9",
+      "host": "keybase.io",
+      "key_id": "0c863d0f346b9ab9",
+      "kid": "01018a070f682a248095dc9414ccd041f6de1b2c9baf4b3be664c1c3f9c1ecd75ad60a",
+      "uid": "42d8f8ecffe291b737650d7edfb2f019",
+      "username": "thecoducer"
+    },
+    "service": {
+      "hostname": "thecoducer.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1573195841,
+  "expire_in": 157680000,
+  "prev": "f1b69d9be44892b7a8550e5dc00f4bd5f363c9b846b7141690c4e9df13a3765f",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.3
+Comment: https://keybase.io/crypto
+
+yMInAnicrVJZSFRRGB5tEa2gBTREqK4ZRiLnzF3m3rEyCY3oISlEsmW6Z5u5aXOn
+O3fcskjaiKJ60LRVKyhIi7INfLCy0qCF9kKDEDQDEUtsf5jOtXrytfNyOB/f9/3f
+/3HuTRnnSohBG3piCpJ39cQ8vHM64lp/f2rOVgGZpELwbhWK6ehFSwgN275igwhe
+AUAAVR14AFNUt+6WVKDJBGsSlDAmQIJMIRQiN9aQziQkIqooEoZYZBqGFBOPrBMF
+6EKGwIygn1ohywja3BYDrBGqE6aKSCGSm5MoBIzDqiISwERJQZqONC4MmGFHwcMh
+PUwzDZNj/OH7E28s/z/njoza8YQqUylmjLo1iDyiR5EB8VDCkJsB6MyNhKkV1DdT
+zrYDFJskgqklbMsQOF5qYOpU6+wyhpPpN+xABP3ZLGSZtonNEs4I2HYo7HUc7IqQ
+IymjyPfXzIeMIOGNckUptcKGGRS8kDOxbTjuUPaIUJNVCWYItDxkWNRnBEdhRQX8
+OHNoKbdkECka0RCVJFVzI4+uyjKgvCkAeC1EZqIi8o5UXq8HSlDRAJaoRhgUdacC
+JjjrbQmaglfhMXU/twwb/qBuRywqbGu/vW68KybBNXFCrPPTXAnxU//9v45bcdGi
+uDfHsl5W5dYntYnVlXtOfK+IFkYP1cXGr422X/gyubm/7mP9pMszRxJLm7IXmod3
+DPc9o/fqcmbPGcn4MKtQTu1MibvoH55e14jqcU0yOHjk1AuUMsF9LaVzzQ9kLWx4
+uPI6aF3Ufe1R0p6duS3dr0Ot22tzNvYWRRrPnqsC3/Th6qoXJ9PnLzv4c29z5+Pl
+7/PY3K6hmtWV0cG2uQtuHz/6q2FifmpW2rvsmwVdQ4t7y2qvBs6bHU8jxVea9qW+
+LQQ3dteSM8npLYs37T2+JPFJ3vZLn3unJe3K/Ykn313x4Pn+xBMHBptKtKWrXg1U
+FeW2F7XP6/v6vmBG/6eB/MTwrLTy3207S5A=
+=XMcr
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/thecoducer
+
+==================================================================
