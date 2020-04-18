@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     <a rel="me" href="https://mastodon.social/@thecoducer"></a>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -29,13 +29,15 @@
     <link rel="alternate" type="application/rss+xml" href="https://thecoducer.github.io/index.xml"
         title="Mayukh Datta" />
     <meta property="og:title" content="Mayukh Datta | The Coducer" />
-    <meta property="og:description" content="I’m a passionate and dedicated computer science engineering undergraduate. I strive to write efficient and beautiful code." />
+    <meta property="og:description"
+        content="I’m a passionate and dedicated computer science engineering undergraduate. I strive to write efficient and beautiful code." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://thecoducer.github.io/" />
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Mayukh Datta | The Coducer" />
-    <meta name="twitter:description" content="I’m a passionate and dedicated computer science engineering undergraduate. I strive to write efficient and beautiful code." />
+    <meta name="twitter:description"
+        content="I’m a passionate and dedicated computer science engineering undergraduate. I strive to write efficient and beautiful code." />
 
     <title>Mayukh Datta | The Coducer</title>
 </head>
@@ -60,7 +62,7 @@
             </header>
 
             <main role="main" class="inner cover">
-                <h1 class="cover-heading">I'm a <span class="txt-rotate" data-period="500"
+                <h1 class="cover-heading"><span id="fixed-text"></span><span class="txt-rotate" data-period="500"
                         data-rotate='[ "passionate learner.", "kind human.", "critical thinker." ]'></span>
                 </h1>
             </main>
@@ -82,6 +84,11 @@
     </div>
 
     <script>
+
+        $(".image-container").css({
+            "background-image": 'linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))'
+        });
+
         var TxtRotate = function (el, toRotate, period) {
             this.toRotate = toRotate;
             this.el = el;
@@ -124,6 +131,8 @@
         };
 
         window.onload = function () {
+            $("#fixed-text").text("I'm ");
+            
             var elements = document.getElementsByClassName('txt-rotate');
             for (var i = 0; i < elements.length; i++) {
                 var toRotate = elements[i].getAttribute('data-rotate');
@@ -132,12 +141,25 @@
                     new TxtRotate(elements[i], JSON.parse(toRotate), period);
                 }
             }
+
             // INJECT CSS
             var css = document.createElement("style");
             css.type = "text/css";
             css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
             document.body.appendChild(css);
+
+            insertImage();
+
         };
+
+        function insertImage() {
+            $(".image-container").css({
+                "background-image": 'linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://source.unsplash.com/featured/?nature,mountain")',
+                "background-position": "center center",
+                "background-repeat": "no-repeat",
+                "background-size": "cover"
+            });
+        }
     </script>
 
 </body>
