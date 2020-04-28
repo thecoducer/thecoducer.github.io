@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
-
 body {
     color: #3c3c3c;
     font-family: 'Raleway', sans-serif;
@@ -12,24 +11,21 @@ body {
 
 p {
     margin-top: 30px;
-    
 }
 
 .navbar {
     background-color: white;
     padding-top: 30px;
-    
 }
 
 .col-centered {
-    display:inline-block;
-    float:none;
+    display: inline-block;
+    float: none;
     /* reset the text-align */
-    text-align:left;
+    text-align: left;
     /* inline-block space fix */
-    margin-right:-4px;
+    margin-right: -4px;
     text-align: center;
-    
 }
 
 /*
@@ -60,9 +56,10 @@ p {
     margin-left: 1rem;
 }
 
-.nav-masthead{
+.nav-masthead {
     color: #3c3c3c;
 }
+
 .nav-masthead .active {
     color: #3c3c3c;
     border-bottom-color: #3c3c3c;
@@ -80,15 +77,16 @@ p {
 a, a:focus, a:hover {
     color: #3c3c3c;
 }
+
 .cover-container {
     max-width: 42em;
 }
 
-span > a {
+span>a {
     color: blue;
 }
 
-span > a:focus, a:hover {
+span>a:focus, a:hover {
     color: black;
     background-color: cyan;
     padding: 2px 2px 2px 2px;
@@ -109,4 +107,105 @@ p {
 
 .color-a {
     color: blue;
+}
+
+/* Own CSS */
+
+.alert {
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    .alert {
+        max-width: 50%;
+        margin: auto;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .alert {
+        max-width: 50%;
+        margin: auto;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .alert {
+        max-width: 50%;
+        margin: auto;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .alert {
+        max-width: 50%;
+        margin: auto;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .alert {
+        max-width: 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    .nav-masthead {
+        color: #3c3c3c;
+        font-size: 13px;
+    }
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .alert {
+        max-width: 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    .nav-masthead {
+        color: #3c3c3c;
+        font-size: 13px;
+    }
 }
